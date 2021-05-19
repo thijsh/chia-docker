@@ -6,6 +6,10 @@ docker run --name <container-name> -d ghcr.io/chia-network/chia:latest
 (optional -v /path/to/plots:plots)
 ```
 
+## Added Configuration
+
+A CA directory is required for correct operation of the harvesters. Add the farmers ~/.chia/mainnet/config/ssl/ca to your data directory.
+
 ## Configuration
 
 You can modify the behavior of your Chia container by setting specific environment variables.
